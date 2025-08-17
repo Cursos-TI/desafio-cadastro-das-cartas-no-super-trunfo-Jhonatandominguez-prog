@@ -44,5 +44,8 @@ printf("Área total: %f\n", area);
 printf("PIB: %f\n", PIB);
 printf("Números de pontos turísticos: %d\n\n", númerodepontosturísticos);// linha em branco adicional
 
+
+// tentei por varias vezes fazer a parte de divisão para PIB por capita e densidade populacional e consegui apenas os resultados (-0.000000 e int), procurei muitos conteudos para corrigir mas não tive sucesso.
+
     return 0;
 }
