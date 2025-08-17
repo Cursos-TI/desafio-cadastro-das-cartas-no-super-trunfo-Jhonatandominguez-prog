@@ -1,22 +1,51 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+int população, númerodepontosturísticos;
+float area, PIB;
+
+printf("Cadastro de informações: \n\n");// linha em branco adicional
+
+printf("Carta 01 - São Paulo. \n\n");// linha em branco adicional
+
+printf("Digite a população total: ");
+scanf("%d", &população);
+
+printf("Adicione o valor da área total: ");
+scanf("%f", &area);
+
+printf("Adicione o valor do PIB: ");
+scanf("%f", &PIB);
+
+printf("Adicione o número de pontos turísticos: ");
+scanf("%d", &númerodepontosturísticos);// linha em branco adicional
+
+printf("População total: %d\n", população);
+printf("Área total: %f\n", area);
+printf("PIB: %f\n", PIB);
+printf("Números de pontos turísticos: %d\n\n", númerodepontosturísticos);// linha em branco adicional
+
+printf("Carta 02 - Minas Gerais. \n\n");// linha em branco adicional
+
+printf("Digite a população total: ");
+scanf("%d", &população);
+
+printf("Adicione o valor da área total: ");
+scanf("%f", &area);
+
+printf("Adicione o valor do PIB: ");
+scanf("%f", &PIB);
+
+printf("Adicione o número de pontos turísticos: ");
+scanf("%d", &númerodepontosturísticos);// linha em branco adicional
+
+printf("População total: %d\n", população);
+printf("Área total: %f\n", area);
+printf("PIB: %f\n", PIB);
+printf("Números de pontos turísticos: %d\n\n", númerodepontosturísticos);// linha em branco adicional
+
+
+// tentei por varias vezes fazer a parte de divisão para PIB por capita e densidade populacional e consegui apenas os resultados (-0.000000 e int), procurei muitos conteudos para corrigir mas não tive sucesso.
 
     return 0;
 }
